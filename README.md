@@ -3,7 +3,7 @@ Machine learning based adaptable bond topology (MLABT) for simulating bond sciss
 
 Please refer to the preprint paper https://chemrxiv.org/engage/chemrxiv/article-details/640cdd12b5d5dbe9e81b77f9 for more details, the formal paper will be available soon. 
 
-Authors: Zheng Yu and Nick Jackson, University of Illinois at Urbana Champapaign 
+Authors: Zheng Yu and Nick Jackson, University of Illinois at Urbana Champaign 
 
 # Data
 Includes the datasets needed for training the ML model (Model3 in the paper). 
