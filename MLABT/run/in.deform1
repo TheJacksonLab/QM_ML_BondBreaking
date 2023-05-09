@@ -1,0 +1,36 @@
+units real
+atom_style full
+
+dimension 3
+boundary p p p
+
+pair_style lj/cut/coul/cut 15.0 15.0
+pair_modify mix geometric
+
+bond_style harmonic 
+angle_style harmonic
+dihedral_style opls 
+improper_style cvff
+special_bonds lj/coul 0.0 0.0 0.5 
+
+#read_restart tmp.restart
+read_data tmp.dat
+reset_timestep 2769000
+
+neighbor        1.0 bin
+neigh_modify    delay 0 every 1 check yes 
+
+#velocity all scale 300 # 42859dist gaussian
+
+thermo          100
+thermo_style    custom step temp density enthalpy press pxx pyy pzz pxy pxz pyz ke pe etotal vol lx ly lz
+
+dump            1 all custom 10000 dump_relax.data id mol type x y z
+dump_modify     1 sort id append yes 
+
+fix 1 all deform 100 x trate 0.000001 remap x
+fix 2 all npt temp 300.0 300.0 100.0 y 1.0 1.0 1000.0 z 1 1 1000
+
+run 1000
+write_data      tmp.dat
+#write_restart   tmp.restart
