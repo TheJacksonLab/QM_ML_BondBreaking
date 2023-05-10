@@ -1,4 +1,4 @@
-# MLABT
+# QM_ML_BondBreaking
 Machine learning based adaptable bond topology (MLABT) for simulating bond scission in molecular dynamics of thermosets under large deformation
 
 Please refer to the preprint paper https://chemrxiv.org/engage/chemrxiv/article-details/640cdd12b5d5dbe9e81b77f9 for more details, the formal paper will be available soon. 
