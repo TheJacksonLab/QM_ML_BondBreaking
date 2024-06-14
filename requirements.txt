@@ -1,0 +1,12 @@
+dscribe @ file:///Users/runner/miniforge3/conda-bld/dscribe_1670852076656/work
+ipython @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6evw3wmnra/croot/ipython_1670919318109/work
+Markdown==3.4.4
+matplotlib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_75d2nzs07i/croot/matplotlib-suite_1670466138655/work
+matplotlib-inline @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f6fdc0hldi/croots/recipe/matplotlib-inline_1662014472341/work
+modAL==0.4.1
+numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d18vvv3mag/croot/numpy_and_numpy_base_1672336185310/work
+pandas==1.5.2
+rdkit==2023.9.5
+scikit-learn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_85iea70f96/croot/scikit-learn_1667587552979/work
+scipy==1.9.3
+seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1672497695270/work

@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler
 # import joblib
 import os
 import pickle 
-
 from dscribe.descriptors import SOAP 
 from ase import Atoms
 
@@ -23,10 +22,10 @@ soap = SOAP(
     l_max=8,
 )
 
-with open('model3soap.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('scaler3soap.pkl', 'rb') as f:
+with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 os.system('mpirun lmp -in in.deform0')
